@@ -1,15 +1,24 @@
-# openwrt-gitpod
-## 云编译openwrt
+# [lede 大源码地址](https://github.com/coolsnowwolf/lede)
 
-[lede源码地址](https://github.com/coolsnowwolf/lede)
+# [kenzok8 源码地址](https://github.com/kenzok8/openwrt-packages)
+**在根目录 `feeds.conf.default` 文件内添加以下两行**
+**各种插件，各种大神。**
+```bash
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+```
+```bash
+src-git small https://github.com/kenzok8/small
+```
+
+
+
+## 云编译 openwrt 使用技术 gitpod 相关教程请善用搜索
 
 ### **第一次编译的命令行：**
 1. 配置基础环境
-1.1 
 ```bash
 sudo apt-get update
 ```
-1.2. 
 ```bash
 sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync
 ```
@@ -25,11 +34,9 @@ cd lede
 ```
 
 4. 更新并安装所有 feeds 
-4.1 
 ```bash
 ./scripts/feeds update -a
 ```
-4.2 
 ```bash
 ./scripts/feeds install -a
 ```
@@ -71,13 +78,12 @@ make defconfig
 ```bash
 make -j8 download
 ```
-6. 编译（可以根据电脑核心来定 j 后面的数字）
+6. 编译
 ```bash
 make -j$(($(nproc) + 1)) V=s
 ```
 
-
-如果需要重新配置：
+**如果需要重新配置：**
 ```bash
 rm -rf ./tmp && rm -rf .config
 ```
@@ -99,13 +105,8 @@ demo 为说明
 ```bash
 git commit  -m "demo"
 ```
-master 是分支名称
+main 是分支名称
 ```bash
-git push -u origin master
+git push -u origin main
 ```
-```bash
-src-git kenzo https://github.com/kenzok8/openwrt-packages
-```
-```bash
-src-git small https://github.com/kenzok8/small
-```
+
