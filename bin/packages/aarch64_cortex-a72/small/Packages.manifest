@@ -1,0 +1,100 @@
+Package: shadowsocks-rust-sslocal
+Version: 1.13.3-1
+Depends: libc
+Source: feeds/small/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1645604778
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2690667
+Filename: shadowsocks-rust-sslocal_1.13.3-1_aarch64_cortex-a72.ipk
+Size: 2680498
+SHA256sum: 92971c00d46d95b2469680e07b83578a3b9ae2017ce903c2324cd47437a3e9de
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssserver
+Version: 1.13.3-1
+Depends: libc
+Source: feeds/small/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1645604778
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1730841
+Filename: shadowsocks-rust-ssserver_1.13.3-1_aarch64_cortex-a72.ipk
+Size: 1723476
+SHA256sum: dee19d4f2d5dffe6ce2b4efe5735c60ad3d9044f631a63ee0f67e3f431b25493
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1645604778
+Architecture: aarch64_cortex-a72
+Installed-Size: 2589
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 3334
+SHA256sum: bc11ccce75a2b01a332b3415ccfd092ee2088fbaf6d575771a3c9303a2e24dc1
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1645604778
+Architecture: aarch64_cortex-a72
+Installed-Size: 62021
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 62786
+SHA256sum: a6c92432516f52cc79d698ce6a4ad32eb0a59a70cac05c6d8b7a465f04369b4b
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1645604778
+Architecture: aarch64_cortex-a72
+Installed-Size: 55722
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 56441
+SHA256sum: fb3d585088d849a5202962f2081fef14531da56142399b2c514aaf9ecd856107
+Description:  shadowsocksr-libev ssr-redir
+
+Package: xray-core
+Version: 1.5.3-1
+Depends: libc, ca-bundle
+Source: feeds/small/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1645604778
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 6321042
+Filename: xray-core_1.5.3-1_aarch64_cortex-a72.ipk
+Size: 6300836
+SHA256sum: 80896df4bc7c2923be0d8c1b31e6a017abfee71afef96a3aa791d05433962f01
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+

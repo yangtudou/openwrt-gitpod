@@ -80,7 +80,11 @@ make -j$(($(nproc) + 1)) V=s
 如果需要重新配置：
 ```bash
 rm -rf ./tmp && rm -rf .config
+```
+```bash
 make menuconfig
+```
+```bash
 make -j$(($(nproc) + 1)) V=s
 ```
 
@@ -98,4 +102,10 @@ git commit  -m "demo"
 master 是分支名称
 ```bash
 git push -u origin master
+```
+```bash
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+```
+```bash
+src-git small https://github.com/kenzok8/small
 ```
