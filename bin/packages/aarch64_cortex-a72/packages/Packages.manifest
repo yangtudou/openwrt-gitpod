@@ -1,0 +1,182 @@
+Package: UnblockNeteaseMusic-Go
+Version: 0.2.13-1
+Depends: libc
+Source: feeds/packages/multimedia/UnblockNeteaseMusic-Go
+SourceName: UnblockNeteaseMusic-Go
+License: GPL-3.0
+Section: multimedia
+SourceDateEpoch: 1645723228
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2283914
+Filename: UnblockNeteaseMusic-Go_0.2.13-1_aarch64_cortex-a72.ipk
+Size: 2277299
+SHA256sum: 241188a47d3996123558cbd27e11273e43d819c2c90eb67198983fed625e63c6
+Description:  Revive Netease Cloud Music (Golang)
+
+Package: coremark
+Version: 2021-11-17-45faaf84-3
+Depends: libc
+Source: feeds/packages/utils/coremark
+SourceName: coremark
+License: Apache-2.0
+LicenseFiles: LICENSE.md
+Section: utils
+SourceDateEpoch: 1645723228
+Maintainer: Lim Guo Wei <limguowei@gmail.com> Aleksander Jan Bajkowski <olek2@wp.pl>
+Architecture: aarch64_cortex-a72
+Installed-Size: 10595
+Filename: coremark_2021-11-17-45faaf84-3_aarch64_cortex-a72.ipk
+Size: 11415
+SHA256sum: d6439538c3cbb7b44d8764946d350e55a7cd9492508d506b5c16c93fbf87bbcc
+Description:  Embedded Microprocessor Benchmark
+
+Package: ddns-scripts
+Version: 2.7.8-3
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1645723228
+Architecture: all
+Installed-Size: 14582
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15669
+SHA256sum: 476c65d045062f968fa6a7d7b44b93fcf170b87e0b081ed5f3b4317c6a8084ae
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Source: feeds/packages/net/etherwake
+SourceName: etherwake
+Section: net
+SourceDateEpoch: 1645723228
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5291
+Filename: etherwake_1.09-5_aarch64_cortex-a72.ipk
+Size: 6228
+SHA256sum: aa432676c1eafbc76af3fb7139c6d854587fe966b2f58971cb3c30a1bd01fe08
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: htop
+Version: 3.1.2-1
+Depends: libc, libncurses6
+Source: feeds/packages/admin/htop
+SourceName: htop
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1645723228
+CPE-ID: cpe:/a:htop:htop
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 99077
+Filename: htop_3.1.2-1_aarch64_cortex-a72.ipk
+Size: 99987
+SHA256sum: 583450b5c0d5dd925fbf479d34c6972f12729b63a69a4cb87b0c8d2be3f7670f
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: miniupnpd
+Version: 2.0.20170421-3
+Depends: libc, iptables, libip4tc2, libuuid1
+Source: feeds/packages/net/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1645723228
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: aarch64_cortex-a72
+Installed-Size: 58858
+Filename: miniupnpd_2.0.20170421-3_aarch64_cortex-a72.ipk
+Size: 59807
+SHA256sum: 16e4e5545b6cd234231ffd1f4ecd8aab4ee0cca34ac27f9c56e83e48fc72c13d
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20210516, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+Source: feeds/packages/net/nlbwmon
+SourceName: nlbwmon
+License: ISC
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1645723228
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a72
+Installed-Size: 21542
+Filename: nlbwmon_2021-09-01-d82c910c-1_aarch64_cortex-a72.ipk
+Size: 22366
+SHA256sum: c1b4a087fe4e5c4fa34c3a864a8d74189aca2cc23d6022d9996f4c059703dfe3
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: feeds/packages/net/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1645723228
+Architecture: aarch64_cortex-a72
+Installed-Size: 92389
+Filename: pdnsd-alt_1.2.9b-par-3_aarch64_cortex-a72.ipk
+Size: 93343
+SHA256sum: 8a2e42d7375d795d78d9330d1c3f5896e1e22d3914379fd490f01b915ab05053
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+Source: feeds/packages/net/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1645723228
+Maintainer: fuyumi <280604399@qq.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 23968
+Filename: vlmcsd_svn1113-3_aarch64_cortex-a72.ipk
+Size: 24642
+SHA256sum: 0e9fdc893fa44dd3377c58f3b341a72ec3c535b95f5b8b8d34f9230108fde366
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: wget-ssl
+Version: 1.21.2-1
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
+Source: feeds/packages/net/wget
+SourceName: wget-ssl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1645723228
+CPE-ID: cpe:/a:gnu:wget
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a72
+Installed-Size: 218575
+Filename: wget-ssl_1.21.2-1_aarch64_cortex-a72.ipk
+Size: 219342
+SHA256sum: 6a7d74fa053af7677d81331b00b0f61b3f2b009646afa6301f83f3ea12bab2f5
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
