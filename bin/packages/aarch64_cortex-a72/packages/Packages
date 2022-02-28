@@ -1,0 +1,488 @@
+Package: UnblockNeteaseMusic-Go
+Version: 0.2.13-1
+Depends: libc
+License: GPL-3.0
+Section: multimedia
+Architecture: aarch64_cortex-a72
+Installed-Size: 1633020
+Filename: UnblockNeteaseMusic-Go_0.2.13-1_aarch64_cortex-a72.ipk
+Size: 1634117
+SHA256sum: d91c74a76c66f4e12f781e134ed1b45df3c150a06b5e27fb8439b35043506f58
+Description:  Revive Netease Cloud Music (Golang)
+
+Package: btrfs-progs
+Version: 5.16.1-1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+License: GPL-2.0-only
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 1010674
+Filename: btrfs-progs_5.16.1-1_aarch64_cortex-a72.ipk
+Size: 1011169
+SHA256sum: f728804437124bec9707558114c6911d9f1bc906dda505667177637437eba61e
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgroupfs-mount
+Version: 2020-06-26-05494281-2
+Depends: libc, mount-utils
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 1241
+Filename: cgroupfs-mount_2020-06-26-05494281-2_aarch64_cortex-a72.ipk
+Size: 2061
+SHA256sum: 2c4d6a7633909909b9a79d3ba6847b35f70fd14e537b8634fce83302c5784d36
+Description:  Simple scripts to properly mount the cgroupfs hierarchy, especially structured for Debian packaging
+
+Package: containerd
+Version: 1.4.12-1
+Depends: libc, btrfs-progs, runc
+License: Apache-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 28318883
+Filename: containerd_1.4.12-1_aarch64_cortex-a72.ipk
+Size: 28003094
+SHA256sum: 204dea74ab541e70a57c1e79b71b6974ace0d8fbb3462e3485d432a2032b04f0
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
+Package: coremark
+Version: 2021-11-17-45faaf84-3
+Depends: libc
+License: Apache-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 10594
+Filename: coremark_2021-11-17-45faaf84-3_aarch64_cortex-a72.ipk
+Size: 11415
+SHA256sum: f503f28ea2567b52c61e0f25696035e71d7c76fc53c468c21fac6411902771aa
+Description:  Embedded Microprocessor Benchmark
+
+Package: coreutils-base64
+Version: 9.0-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 23142
+Filename: coreutils-base64_9.0-2_aarch64_cortex-a72.ipk
+Size: 23950
+SHA256sum: eac8af2d2d144f4108d4e77a27043be6ce01f0a61056b8488078e375fcf28f24
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils
+Version: 9.0-2
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a72
+Installed-Size: 106
+Filename: coreutils_9.0-2_aarch64_cortex-a72.ipk
+Size: 998
+SHA256sum: 8a0f6a36dac1b95c23db2c515e87ee5714ab2fb7aec46d0f8b6b4ea1a516a022
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.81.0-1
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a72
+Installed-Size: 57166
+Filename: curl_7.81.0-1_aarch64_cortex-a72.ipk
+Size: 57958
+SHA256sum: 7b765aaa428cd2607dad0e97922f0d0241ae3e5040347fac8c388a0d7dbbb16e
+Description:  A client-side URL transfer utility
+
+Package: ddns-scripts
+Version: 2.7.8-3
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14583
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15671
+SHA256sum: f826adf96849ede21cc6292bec4c860619fb9089feabce418af35679bbcb217e
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 11227
+Filename: dns2socks_2.1-2_aarch64_cortex-a72.ipk
+Size: 12044
+SHA256sum: 11bad8787c41607f479f7ecea2d0d66b2ebae2442d4f19f2af8f161ec2b5150c
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: docker
+Version: 20.10.12-1
+Depends: libc
+License: Apache-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 11249273
+Filename: docker_20.10.12-1_aarch64_cortex-a72.ipk
+Size: 11172290
+SHA256sum: 5d905c2e8cafc752a99b7ff21fa6601d29419d906d4bf192b7debe022b6d1903
+Description:  The CLI used in the Docker CE and Docker EE products.
+
+Package: dockerd
+Version: 20.10.12-1
+Depends: libc, btrfs-progs, ca-certificates, containerd, libdevmapper, libnetwork, tini, libseccomp, iptables-mod-extra, kmod-br-netfilter, kmod-ikconfig, kmod-nf-conntrack-netlink, kmod-nf-ipvs, kmod-nf-nat, kmod-veth
+License: Apache-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 14916334
+Filename: dockerd_20.10.12-1_aarch64_cortex-a72.ipk
+Size: 14849148
+SHA256sum: 5a200297f2f0fc964c8a6e8e0f1f67db061dea9fdeeb91ed731823ec49c34303
+Description:  The Docker CE Engine.
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 5292
+Filename: etherwake_1.09-5_aarch64_cortex-a72.ipk
+Size: 6230
+SHA256sum: eccf1668aebd480acc96a799aabe6132707fccc000d19e4d30901a9f2ef8eed6
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: htop
+Version: 3.1.2-1
+Depends: libc, libncurses6
+License: GPL-2.0-or-later
+Section: admin
+CPE-ID: cpe:/a:htop:htop
+Architecture: aarch64_cortex-a72
+Installed-Size: 99076
+Filename: htop_3.1.2-1_aarch64_cortex-a72.ipk
+Size: 99986
+SHA256sum: a2d9baf24e82350f64e9f88b07694292060c5b7b9eeada8e65a961b74e9a771d
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 7056
+Filename: libattr_2.5.1-1_aarch64_cortex-a72.ipk
+Size: 7856
+SHA256sum: 2ca0b0aa87962fe984fbfa350e343a7a943d90d1e237411019deade597c50bee
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcurl4
+Version: 7.81.0-1
+Depends: libc, libopenssl1.1, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a72
+Installed-Size: 171426
+Filename: libcurl4_7.81.0-1_aarch64_cortex-a72.ipk
+Size: 172172
+SHA256sum: 42ed26d929d55caf5aa9e41fcc70f09996017a9e919aaff2c23f981072c8523b
+Description:  A client-side URL transfer library
+
+Package: libdevmapper
+Version: 2.03.12-1
+Depends: libc, kmod-dm, libpthread, libuuid1, librt, libblkid1
+License: GPL-2.0 LGPL-2.1
+Section: libs
+CPE-ID: cpe:/a:heinz_mauelshagen:lvm2
+Architecture: aarch64_cortex-a72
+Installed-Size: 148337
+Filename: libdevmapper_2.03.12-1_aarch64_cortex-a72.ipk
+Size: 149257
+SHA256sum: 7f498307ab529165da1e7d50ec3dcf9e39fa43c3b16c491f4142aebc1a3e8e4f
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
+
+Package: libev
+Version: 4.33-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 23815
+Filename: libev_4.33-1_aarch64_cortex-a72.ipk
+Size: 24588
+SHA256sum: d1ca946d507005565c0ea2939b1d44d307b80294803510e2173a31efe297588c
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: liblzo2
+Version: 2.10-4
+Depends: libc
+Provides: liblzo
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 2
+Architecture: aarch64_cortex-a72
+Installed-Size: 39098
+Filename: liblzo2_2.10-4_aarch64_cortex-a72.ipk
+Size: 39921
+SHA256sum: 2651d32d32c4595ef4f7bed17f3653c861b2f83826baf75986fefb646a9879da
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libnetwork
+Version: 2021-05-25-64b7a457-1
+Depends: libc
+License: Apache-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 6092129
+Filename: libnetwork_2021-05-25-64b7a457-1_aarch64_cortex-a72.ipk
+Size: 6066755
+SHA256sum: f1bda950382787c2d696d1e844b4d9c99314dc1ae8e423801eba008aec73c663
+Description:  Libnetwork provides a native Go implementation for connecting containers.
+ The goal of libnetwork is to deliver a robust Container Network Model that provides a consistent programming interface and the required network abstractions for applications.
+
+Package: libseccomp
+Version: 2.5.1-1
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Architecture: aarch64_cortex-a72
+Installed-Size: 44629
+Filename: libseccomp_2.5.1-1_aarch64_cortex-a72.ipk
+Size: 45240
+SHA256sum: 9a6e85571c8a79bad17337556f731257fde8a350fda489cf736e2cefbb9f7850
+Description:  This package contains the seccomp library.
+
+Package: libsodium
+Version: 1.0.18-3
+Depends: libc
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 106880
+Filename: libsodium_1.0.18-3_aarch64_cortex-a72.ipk
+Size: 108147
+SHA256sum: c2c56ed03c926da13cc35b76c0445a6423bd398bf3ff8b70066c6854ea28c177
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 20295
+Filename: libudns_0.4-1_aarch64_cortex-a72.ipk
+Size: 21045
+SHA256sum: 05f59a211830001dc38d11ddb20e24f137a26ecbefc79e4970917473a3d18015
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: libuv1
+Version: 1.41.1-1
+Depends: libc, libpthread, librt
+Provides: libuv
+License: MIT
+Section: libs
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Architecture: aarch64_cortex-a72
+Installed-Size: 67873
+Filename: libuv1_1.41.1-1_aarch64_cortex-a72.ipk
+Size: 68741
+SHA256sum: fe0082d6df8aef068e382644a2c00ee2ad54275d794718b6036e919691cc46cb
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebsockets-full
+Version: 4.1.6-1
+Depends: libc, zlib, libcap, libopenssl1.1, libuv1
+Provides: libwebsockets
+License: MIT
+Section: libs
+Architecture: aarch64_cortex-a72
+Installed-Size: 171175
+Filename: libwebsockets-full_4.1.6-1_aarch64_cortex-a72.ipk
+Size: 172003
+SHA256sum: 6b8671df704fbab262aab0b1a803dce8fbca55eccfdd1f52b60f671ca49b27ac
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: microsocks
+Version: 1.0.2-2
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 5787
+Filename: microsocks_1.0.2-2_aarch64_cortex-a72.ipk
+Size: 6581
+SHA256sum: c95be287076a5dec296eb4d3c375f665774d4e41f9690c84efba58b7066995d1
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: miniupnpd
+Version: 2.0.20170421-3
+Depends: libc, iptables, libip4tc2, libuuid1
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 58858
+Filename: miniupnpd_2.0.20170421-3_aarch64_cortex-a72.ipk
+Size: 59824
+SHA256sum: 5912e02ff5b82761a52f93fb536fc5419ab2f519ed44870b52363fff355b4191
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: nlbwmon
+Version: 2021-09-01-d82c910c-1
+Depends: libc, libubox20210516, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 21542
+Filename: nlbwmon_2021-09-01-d82c910c-1_aarch64_cortex-a72.ipk
+Size: 22368
+SHA256sum: 66ce6438d9da71657e880e150ee60585a9a36239111559adc257559afebc1aa5
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: parted
+Version: 3.3-1
+Depends: libc, libuuid1, libreadline8, libncurses6, libblkid1
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 607946
+Filename: parted_3.3-1_aarch64_cortex-a72.ipk
+Size: 608037
+SHA256sum: e749d0f499ee30dcf63ba73ede804a7d16c68b0ac6224a421724ca3ef54cc1f5
+Description:  parted Partition editor
+ http://www.gnu.org/software/parted/index.shtml
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 92387
+Filename: pdnsd-alt_1.2.9b-par-3_aarch64_cortex-a72.ipk
+Size: 93272
+SHA256sum: cfa07375d471f8946ccadc3989ae1c9b36090148b11c4ef128622b35de34e5ec
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: runc
+Version: 1.0.2-1
+Depends: libc, libseccomp
+License: Apache-2.0
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 3342628
+Filename: runc_1.0.2-1_aarch64_cortex-a72.ipk
+Size: 3300624
+SHA256sum: 7cee5e51ddd21e038b8dd277527cd861b71fe893f68c7afe73d791d5f2a7ef05
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: smartmontools
+Version: 7.2-2
+Depends: libc, libstdcpp6
+License: GPL-2.0-or-later
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 215189
+Filename: smartmontools_7.2-2_aarch64_cortex-a72.ipk
+Size: 215922
+SHA256sum: 14a7dedb70aa30a2b8d6f1f67be7fc5df6cf06e080a1a86223e7f65a9570bd8f
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: tini
+Version: 0.19.0-2
+Depends: libc
+License: MIT
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 37524
+Filename: tini_0.19.0-2_aarch64_cortex-a72.ipk
+Size: 38282
+SHA256sum: acff0bfa61c59326ba9acd60e18a407c5e3fe36c2c8d5ecdff9bc1c1885ad528
+Description:  A tiny but valid init process for containers.
+
+Package: ttyd
+Version: 1.6.3-3
+Depends: libc, libopenssl1.1, libjson-c5, libuv1, zlib, libwebsockets-full
+License: MIT
+Section: utils
+Architecture: aarch64_cortex-a72
+Installed-Size: 253272
+Filename: ttyd_1.6.3-3_aarch64_cortex-a72.ipk
+Size: 253939
+SHA256sum: cb17dfc64b93638f67500d51e56f54c14722b80ab54288752317a0dbe20e2c9c
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a72
+Installed-Size: 23967
+Filename: vlmcsd_svn1113-3_aarch64_cortex-a72.ipk
+Size: 24621
+SHA256sum: 68cfc81aef0977edf616532c7da5103be3f885aee3b77949dd0a21f3a2dc915e
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: wget-ssl
+Version: 1.21.2-1
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+CPE-ID: cpe:/a:gnu:wget
+Architecture: aarch64_cortex-a72
+Installed-Size: 218574
+Filename: wget-ssl_1.21.2-1_aarch64_cortex-a72.ipk
+Size: 219337
+SHA256sum: 678971f7277328ff2637a2e66b66352d503033288aa2a01ac0ec1d1c552b284b
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
