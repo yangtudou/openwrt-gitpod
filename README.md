@@ -1,6 +1,6 @@
 <details>
   <summary>
-    <code> lede 编译方式个</code>
+    <code> lede 编译方式</code>
   </summary>
   
 # [lede 大源码地址](https://github.com/coolsnowwolf/lede)
