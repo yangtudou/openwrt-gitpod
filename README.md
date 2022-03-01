@@ -1,3 +1,8 @@
+<details>
+  <summary>
+    <code> lede 编译方式个</code>
+  </summary>
+  
 # [lede 大源码地址](https://github.com/coolsnowwolf/lede)
 
 # [kenzok8 源码地址](https://github.com/kenzok8/openwrt-packages)
@@ -96,6 +101,8 @@ make -j$(($(nproc) + 1)) V=s
 
 ### 编译完成后输出路径：bin/targets
 
+</details>
+
 ## Git 提交
 
 ```bash
@@ -107,6 +114,6 @@ git commit  -m "demo"
 ```
 main 是分支名称
 ```bash
-git push -u origin main
+git push -u origin/main
 ```
 
